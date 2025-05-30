@@ -30,7 +30,9 @@ const Work = () => {
             {/* overlay */}
             <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
             {/* img */}
+            <a href="https://tugas-front-end-1-b-harisenin.vercel.app/" target="_blank">
             <img className='group-hover:scale-125 transition-all duration-500 w-full h-48 md:h-[200px] object-cover' src={Img1} alt="" />
+            </a>
             {/* pretititle */}
             <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'><span className='text-gradient'>Front-end Developer</span></div>
             {/* title */}
@@ -48,7 +50,9 @@ const Work = () => {
             {/* overlay */}
             <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
             {/* img */}
+            <a href="">
             <img className='group-hover:scale-125 transition-all duration-500 w-full h-48 md:h-[200px] object-cover' src={Img2} alt="" />
+            </a>
             {/* pretititle */}
             <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'><span className='text-gradient'>Front-end Developer</span></div>
             {/* title */}
