@@ -19,14 +19,14 @@ const Work = () => {
         viewport={{once:false, amount:0.3}}
         className='flex-1 flex flex-col gap-y-5 mb-10 lg:mb-0'>
           {/* text */}
-          <a href='https://tugas-front-end-1-b-harisenin.vercel.app/' target='_blank' rel='noopener noreferrer'>
+          <div>
             <h2 className='h2 leading-tight text-accent'>My Latest <br />
             Work.</h2>
             <p className='max-w-sm mb-10'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, quos!</p>
             <button className='btn btn-sm'>View all project</button>
-          </a>
+          </div>
           {/* image */}
-          <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
+          <a href='https://tugas-front-end-1-b-harisenin.vercel.app/' target='_blank' rel="noopener noreferrer" className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
             {/* overlay */}
             <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
             {/* img */}
@@ -35,7 +35,7 @@ const Work = () => {
             <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'><span className='text-gradient'>Front-end Developer</span></div>
             {/* title */}
             <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'><span className='text-3xl text-white'>Project Title</span></div>
-          </div>
+          </a>
         </motion.div>
         <motion.div 
         variants={fadeIn('left',0.2)}
