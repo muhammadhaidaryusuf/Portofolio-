@@ -26,7 +26,7 @@ const Work = () => {
             <button className='btn btn-sm'>View all project</button>
           </div>
           {/* image */}
-          <a href='https://tugas-front-end-1-b-harisenin.vercel.app/' target='_blank' rel="noopener noreferrer" className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
+          <a href='https://tugas-front-end-1-b-harisenin.vercel.app/' target='_blank' rel="noopener noreferrer" className='group relative overflow-hidden border-2 border-white/50 rounded-xl block' onClick={(e) => e.stopPropagation()}>
             {/* overlay */}
             <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
             {/* img */}
