@@ -52,9 +52,9 @@ const Work = () => {
             <img className='group-hover:scale-125 transition-all duration-500 w-full h-48 md:h-[200px] object-cover' src={Img2} alt="" />
             </a>
             {/* pretititle */}
-            <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'><span className='text-gradient'>Front-end Developer</span></div>
+            <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'><span className='text-gradient'>"A React-based film browsing demo with MockAPI auth. Hosted on Vercel—focused on UI/UX while simulating backend functions. (No actual streaming yet.)"</span></div>
             {/* title */}
-            <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'><span className='text-3xl text-white'>Project Title</span></div>
+            <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'><span className='text-3xl text-white'>Chill Films streaming film</span></div>
           </div>
           <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
             {/* overlay */}

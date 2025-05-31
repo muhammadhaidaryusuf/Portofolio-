@@ -33,7 +33,7 @@ const About = () => {
           <h2 className='h2 text-accent'>About me</h2>
           <h3 className='h3 mb-4'>I'm a Freelance Front-end Developer</h3>
           <p className='mb-6'>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, facilis.
+            "From Harisenin.com's bootcamp to real-world projects, I’ve honed my skills in full-stack development with a focus on performance and creativity. Let’s build something amazing—browse my work to see how I bring ideas to life!"
           </p>
           {/* stats */}
           <div className='flex gap-x-6 lg:gap-x-10 mb-12'>

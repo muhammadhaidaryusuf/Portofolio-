@@ -25,7 +25,7 @@ const Banner = () => {
               <TypeAnimation sequence={["Developer", 2000, "Techology Enthusiast", 2000]} speed={50} className="text-accent" wrapper="span" repeat={Infinity} />
             </motion.div>
             <motion.p variants={fadeIn("up", 0.5)} initial="hidden" whileInView={"show"} viewport={{ once: false, amount: 0.7 }} className="mb-8 max-w-lg mx-auto lg:mx-0">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, quisquam?
+              Graduated Full-Stack Web Developer bootcamp program from harisenin.com for deepening skills in Web Developer. Explore my latest projects, showcasing my expertise in web development.
             </motion.p>
             <motion.div variants={fadeIn("up", 0.6)} initial="hidden" whileInView={"show"} viewport={{ once: false, amount: 0.7 }} className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0">
               <button className="btn btn-lg">Contact Me</button>
